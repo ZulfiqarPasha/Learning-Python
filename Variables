@@ -1,0 +1,11 @@
+patient_status = 'new'
+Name - 'John Smith'
+Age = 20
+print('The name of the patient is ')
+print(Name)
+print('The patient is ')
+print(Age)
+print(' years of age and')
+print('the patient is ')
+print(patient_status)
+print('to the hospital.')
