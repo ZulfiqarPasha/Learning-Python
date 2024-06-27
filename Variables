@@ -1,5 +1,5 @@
 patient_status = 'new'
-Name - 'John Smith'
+Name = 'John Smith'
 Age = 20
 print('The name of the patient is ')
 print(Name)
