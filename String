@@ -1,0 +1,12 @@
+print('Sally saw sea shells by the sea shore')
+print("Sally saw sea shells by the sea shore")
+print("Sally said, 'you are very mean'")
+print('Sally said, "you are very mean"')
+print('''The sun dipped below the horizon, casting a golden glow across the tranquil lake. The water mirrored the vibrant colors of the sky, creating a breathtaking display of nature's artistry.''')
+print('''In the heart of the bustling city, there lies a small, hidden garden, a sanctuary of peace amid the chaos. Tall buildings loom overhead, but within the garden’s ivy-covered walls, the noise of the urban jungle fades into a distant hum.''')
+name='Australia, known for its diverse landscapes ranging from sun-kissed beaches to the rugged Outback, is a land of unique wildlife, vibrant cities, and rich cultural heritage.'
+print(name[0])
+print(name[-1])
+print(name[0:3])
+print(name[1:])
+print(name[:9])
