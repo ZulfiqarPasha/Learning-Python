@@ -1,0 +1,4 @@
+Weight_lbs=input('Weight(lbs) ? ' )
+Weight_lbs_int = int(Weight_lbs) 
+Weight_kg = Weight_lbs_int * 0.453592
+print(Weight_kg)
