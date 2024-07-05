@@ -1,0 +1,15 @@
+has_childrens_check=True
+has_criminal_record=True
+has_university_degree=True
+
+if has_university_degree and not has_criminal_record and not has_childrens_check :
+        print('The applicant may go and get a working with childrens check and keep his/her record clean to get the job')
+    
+if has_university_degree and has_criminal_record and not has_childrens_check :
+        print('The applicant is not eligible for this job as he/she has a criminal record')
+    
+if has_university_degree and has_criminal_record and has_criminal_record :
+        print("The applicant is a fraud as he/she can't have a criminal record and a childrens check")
+    
+if has_university_degree and not has_criminal_record and has_childrens_check :
+        print("The applicant is eligible for this position")
