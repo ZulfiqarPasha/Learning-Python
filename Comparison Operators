@@ -1,0 +1,11 @@
+name = input("What is your name?")
+name_c = len(name)
+print(name_c)
+if name_c < 3:
+    print('You have given an incorrent or incomplete name')
+    
+if name_c > 50: 
+    print('You have given a name that is simply too long to process as the maximum character limit is 50.')
+    
+if name_c <= 50 and not name_c < 3:
+    print("Your name is " + name + " and I hope you have a tremendous day!")
